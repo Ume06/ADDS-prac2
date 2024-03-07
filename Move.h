@@ -1,5 +1,5 @@
 #include <string>
-#include <vector>
+#include <map>
 #ifndef MOVE_H
 #define MOVE_H
 
@@ -10,7 +10,10 @@ class Move {
     // return move name
     virtual string getName();
     // return vector<string> of moves that lose this move
-    virtual vector<string> strongerThan();
+    virtual bool willLose(string);
+    // list of moves a Player can make
+  private:
+    vector <string> loses;
 };
 
 #endif;

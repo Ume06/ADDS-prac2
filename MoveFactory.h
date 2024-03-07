@@ -7,11 +7,11 @@ using namespace std;
 
 class moveFactory {
   public:
-    moveFactory(map<string, int> possibleNames);
+    moveFactory();
     //take in string and return subclass of move
     Move* getMove(string moveName);
   private:
-    map<string, int> moves;
+    map<string, Move*> possibleMoves;
 };
 
 #endif

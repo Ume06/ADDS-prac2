@@ -16,6 +16,6 @@ Move* Human::makeMove() {
   string move;
   cout << "Enter move: ";
   cin >> move;
-  moveFactory y;
-  return y.getMove(move);
+  moveFactory moveGetter = moveFactory();
+  return moveGetter.getMove(move);
 }

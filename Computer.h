@@ -1,14 +1,16 @@
 #ifndef COMPUTER_H // include guard
 #define COMPUTER_H
 #include <iostream>
-#include "Player.cpp"
+#include "Player.h"
 
 using namespace std;
 
 class Computer : public Player{
   public:
-    char makeMove();
-    string getName();
+    Move* makeMove();
+    Computer();
+  private:
+    string name;
 };
 
 #endif
