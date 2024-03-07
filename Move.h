@@ -17,4 +17,4 @@ class Move {
     string name;
 };
 
-#endif;
+#endif

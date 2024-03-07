@@ -9,4 +9,4 @@ class Rock : public Move {
     Rock();
 };
 
-#endif;
+#endif

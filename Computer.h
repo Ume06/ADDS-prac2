@@ -9,8 +9,6 @@ class Computer : public Player{
   public:
     Move* makeMove();
     Computer();
-  private:
-    string name;
 };
 
 #endif

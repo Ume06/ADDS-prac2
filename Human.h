@@ -10,8 +10,6 @@ class Human : public Player{
     Move* makeMove();
     Human(string x);
     Human();
-  private:
-    string name;
 };
 
 #endif

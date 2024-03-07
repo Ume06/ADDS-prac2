@@ -9,4 +9,4 @@ class Pirate : public Move {
     Pirate();
 };
 
-#endif;
+#endif

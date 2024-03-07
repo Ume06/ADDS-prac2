@@ -9,4 +9,4 @@ class Monkey : public Move {
     Monkey();
 };
 
-#endif;
+#endif

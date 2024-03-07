@@ -11,4 +11,4 @@ class Zombie : public Move {
     vector <string> loses;
 };
 
-#endif;
+#endif

@@ -9,4 +9,4 @@ class Ninja : public Move {
     Ninja();
 };
 
-#endif;
+#endif

@@ -9,4 +9,4 @@ class Robot : public Move {
     Robot();
 };
 
-#endif;
+#endif

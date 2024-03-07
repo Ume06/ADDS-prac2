@@ -9,4 +9,4 @@ class Paper : public Move {
     Paper();
 };
 
-#endif;
+#endif

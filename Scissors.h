@@ -9,4 +9,4 @@ class Scissors : public Move {
     Scissors();
 };
 
-#endif;
+#endif

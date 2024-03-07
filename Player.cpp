@@ -4,7 +4,7 @@
 using namespace std;
 
 string Player::getName() {
-  return Player::name;
+  return name;
 }
 
   

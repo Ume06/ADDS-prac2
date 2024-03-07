@@ -5,7 +5,7 @@
 using namespace std;
 
 Computer::Computer() {
-  Computer::name = "Computer";
+  name = "Computer";
 }
 
 Move* Computer::makeMove() {

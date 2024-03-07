@@ -1,15 +1,16 @@
 #include "Human.h"
 #include "Move.h"
 #include "MoveFactory.h"
+#include <string>
 
 using namespace std;
 
 Human::Human(string x) {
-  Human::name = x;
+  name = x;
 }
 
 Human::Human() {
-  Human::name = "Human";
+  name = "Human";
 }
 
 Move* Human::makeMove() {

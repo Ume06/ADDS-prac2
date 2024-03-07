@@ -11,7 +11,6 @@ class Player {
     virtual Move* makeMove()=0;
     string getName(); 
     map<string, Move*> possibleMoves;
-  private:
     string name;
 };
 

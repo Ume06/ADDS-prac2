@@ -6,10 +6,6 @@
 class Referee {
   public:
     Player* refGame(Player* player1, Player* player2);
-
-  private:
-    Move* getWinner(Move* move1, Move* move2);
-    map<string, Move*> legalMoves;
 };
 
 #endif

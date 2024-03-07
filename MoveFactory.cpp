@@ -7,6 +7,8 @@
 #include "Rock.h"
 #include "Paper.h"
 #include "Scissors.h"
+#include <map>
+#include <string>
 
 using namespace std;
 
