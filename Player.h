@@ -1,6 +1,7 @@
 #ifndef PLAYER_H // include guard
 #define PLAYER_H
-#include <iostream>
+#include <map>
+#include <string>
 #include "Move.h"
 
 using namespace::std;
