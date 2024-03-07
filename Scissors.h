@@ -5,9 +5,8 @@
 using namespace std;
 
 class Scissors : public Move {
-  private:
-    vector<string> defeats;
-    string moveName;
+  public:
+    Scissors();
 };
 
 #endif;

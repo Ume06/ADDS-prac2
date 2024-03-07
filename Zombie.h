@@ -5,9 +5,10 @@
 using namespace std;
 
 class Zombie : public Move {
+  public:
+    Zombie();
   private:
-    vector<string> defeats;
-    string moveName;
+    vector <string> loses;
 };
 
 #endif;

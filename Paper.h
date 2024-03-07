@@ -5,7 +5,8 @@
 using namespace std;
 
 class Paper : public Move {
-
+  public:
+    Paper();
 };
 
 #endif;

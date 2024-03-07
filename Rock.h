@@ -5,9 +5,8 @@
 using namespace std;
 
 class Rock : public Move {
-  private:
-    vector<string> defeats;
-    string moveName;
+  public:
+    Rock();
 };
 
 #endif;

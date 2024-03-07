@@ -5,9 +5,8 @@
 using namespace std;
 
 class Robot : public Move {
-  private:
-    vector<string> defeats;
-    string moveName;
+  public:
+    Robot();
 };
 
 #endif;
