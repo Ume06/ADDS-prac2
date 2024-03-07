@@ -1,4 +1,4 @@
-#include "../Move.h"
+#include "Move.h"
 #ifndef SCISSORS_H
 #define SCISSORS_H
 

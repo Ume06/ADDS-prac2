@@ -1,4 +1,4 @@
-#include "../Move.h"
+#include "Move.h"
 #ifndef NINJA_H
 #define NINJA_H
 

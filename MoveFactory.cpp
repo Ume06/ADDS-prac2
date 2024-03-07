@@ -1,12 +1,12 @@
 #include "MoveFactory.h"
-#include "./moves/Monkey.h"
-#include "./moves/Robot.h"
-#include "./moves/Pirate.h"
-#include "./moves/Ninja.h"
-#include "./moves/Zombie.h"
-#include "./moves/Rock.h"
-#include "./moves/Paper.h"
-#include "./moves/Scissors.h"
+#include "Monkey.h"
+#include "Robot.h"
+#include "Pirate.h"
+#include "Ninja.h"
+#include "Zombie.h"
+#include "Rock.h"
+#include "Paper.h"
+#include "Scissors.h"
 
 using namespace std;
 

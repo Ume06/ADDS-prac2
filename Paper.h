@@ -1,4 +1,4 @@
-#include "../Move.h"
+#include "Move.h"
 #ifndef PAPER_H
 #define PAPER_H
 

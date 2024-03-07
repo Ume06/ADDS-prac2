@@ -1,4 +1,4 @@
-#include "../Move.h"
+#include "Move.h"
 #ifndef ROCK_H
 #define ROCK_H
 

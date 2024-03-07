@@ -1,4 +1,4 @@
-#include "../Move.h"
+#include "Move.h"
 #ifndef PIRATE_H
 #define PIRATE_H
 
