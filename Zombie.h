@@ -7,8 +7,6 @@ using namespace std;
 class Zombie : public Move {
   public:
     Zombie();
-  private:
-    vector <string> loses;
 };
 
 #endif
